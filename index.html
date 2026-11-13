@@ -3,193 +3,1014 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deepak Chakkaravarthi</title>
+    <title>Deepak Chakkaravarthi | Backend Developer</title>
     <link
       rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>"
     />
     <link rel="stylesheet" href="src/style.css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       crossorigin="anonymous"
     />
   </head>
   <body>
-    <section id="main" class="center">
+    <!-- Top Sticky Navigation Bar -->
+    <header class="navbar" id="navbar">
+      <a href="#main" class="nav-logo">
+        <i class="fas fa-terminal"></i>
+        <span>Deepak</span> Chakkaravarthi
+      </a>
+      <ul class="nav-links">
+        <li><a href="#About" class="nav-link">About</a></li>
+        <li><a href="#Experience" class="nav-link">Experience</a></li>
+        <li><a href="#Skills" class="nav-link">Skills</a></li>
+        <li><a href="#Projects" class="nav-link">Projects</a></li>
+        <li><a href="#Education" class="nav-link">Education</a></li>
+        <li><a href="#Contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="main">
       <div id="particles-js"></div>
-      <div class="user_info">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <i class="fas fa-circle"></i>
+          <span>Backend Developer &bull; 3+ Years Experience</span>
+        </div>
         <h1 class="user_name">Deepak Chakkaravarthi</h1>
-        <p>Front-End Developer</p>
-        <a href="#About" class="btn">About Us</a>
-      </div>
-      <div class="user_img">
-        <img src="/images/salaimuniselvam.png"  />
-      </div>
-    </section>
+        <div class="hero-role-wrapper">
+          <span class="static-text">Specialized in </span>
+          <span class="typing-text" id="typing-text"></span>
+        </div>
+        <p class="hero-desc">
+          Backend Developer with 3+ years of professional experience in Laravel PHP Framework and Java Spring Boot. Skilled in designing and implementing REST APIs, microservices, and robust data integration solutions.
+        </p>
 
-    <!-- about -->
-    <section class="about center" id="About">
-    <div class="center">
-      <h1 class="about_heading">About</h1>
-      <p>
-        Hello! I'm Deepak Chakkaravarthi . <br>
-        I have a diverse set of skills,ranging from <br> 
-        HTML + CSS + Javascript.
-      </p>
-    </div>
-        <img src="images/workingPerson.png" alt="its supposed to be a picture here..">
-    </section>
-    <section class="skills center" id="Skills">
-      <p class="skill_head">Skills</p>
-      <div class="skill_box center">
-        <div class="box">
-          <i class="fab fa-html5 fa-4x"></i>
-          <p>HTML</p>
+        <!-- Direct Resume Contact Details -->
+        <div class="hero-meta">
+          <a href="mailto:deepaksivaji@gmail.com" class="hero-meta-item">
+            <i class="fas fa-envelope"></i>
+            <span>deepaksivaji@gmail.com</span>
+          </a>
+          <a href="tel:+916369224746" class="hero-meta-item">
+            <i class="fas fa-phone-alt"></i>
+            <span>+91-6369224746</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/deepak-chakkaravarthi-18a9a9228"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hero-meta-item"
+          >
+            <i class="fab fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
         </div>
-        <div class="box">
-          <i class="fab fa-css3-alt fa-4x"></i>
-          <p>CSS</p>
+
+        <div class="hero-actions">
+          <a href="#Experience" class="btn btn-primary">
+            <i class="fas fa-briefcase"></i> View Experience
+          </a>
+          <a href="#Projects" class="btn btn-secondary">
+            <i class="fas fa-code"></i> Explore Projects
+          </a>
         </div>
-        <div class="box">
-          <i class="fab fa-js-square fa-4x"></i>
-          <p>Javascript</p>
-        </div>
-        <div class="box">
-          <i class="fab fa-react fa-4x"></i>
-          <p>React</p>
-        </div>
-        <div class="box">
-          <i class="fab fa-php fa-4x"></i>
-          <p>php</p>
-        </div>
-        <div class="box">
-          <i class="fab fa-brands fa-laravel fa-4x"></i>
-          <p>Laravel</p>
-          </div>
-        <div class="box">
-          <i class="fas fa-database fa-4x"></i>
-          <p>Database</p>
-        </div>
-        <div class="box">
-          <i class="fab fa-microsoft fa-4x"></i>
-          <p>Microsoft Office</p>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-avatar-frame">
+          <img src="images/salaimuniselvam.png" alt="Deepak Chakkaravarthi" />
         </div>
       </div>
     </section>
 
-    <section class="projects center" id="Projects">
-      <h1 class="project_heading">Projects</h1>
-      <div class="container center">
-        <div class="main_box center">
-          <div class="icon center">
-            <i class="fas fa-virus"></i>
-          </div>
-          <div class="box">
-            <h1>Travel Website</h1>
-            <p>
-              Travel Website using HTML, CSS & JavaScript ,React. 
-            </p>
-            <div class="links">
-              <a
-                href="https://github.com/Deepakchakkaravarhi/projects"
-                target="_blank_"
-                >Github Repo<i class="fas fa-arrow-right"></i
-              ></a>
+    <!-- Professional Summary / About Section -->
+    <section class="about" id="About">
+      <div class="section-header reveal">
+        <span class="section-tag">Overview</span>
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="section-subtitle">
+          Core strengths and technical background in scalable backend architecture and cloud integration.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h3>Architecting Scalable Backend Solutions & High-Performance APIs</h3>
+          <p>
+            Backend Developer with 3+ years of professional experience in Laravel PHP Framework and Java Spring Boot. Skilled in designing and implementing REST APIs and microservices for seamless data integration. Proficient in Core PHP, MVC Architecture, and developing and maintaining web applications.
+          </p>
+
+          <ul class="about-bullets">
+            <li class="about-bullet-item">
+              <i class="fas fa-cloud"></i>
+              <div>
+                <strong>DevOps & Cloud Integration:</strong> Adept at utilizing Azure DevOps and Google Cloud Platform (GCP) for continuous integration and deployment.
+              </div>
+            </li>
+            <li class="about-bullet-item">
+              <i class="fas fa-layer-group"></i>
+              <div>
+                <strong>Web Development Foundation:</strong> Knowledgeable in HTML, CSS, AJAX, for comprehensive web development.
+              </div>
+            </li>
+            <li class="about-bullet-item">
+              <i class="fas fa-terminal"></i>
+              <div>
+                <strong>Deployment & Server Environments:</strong> Experienced in using tools like Filezilla, WinSCP, and Ubuntu for efficient development and deployment.
+              </div>
+            </li>
+            <li class="about-bullet-item">
+              <i class="fas fa-chart-line"></i>
+              <div>
+                <strong>Performance & Best Practices:</strong> Proven ability to optimize backend systems for performance and scalability. Strong problem-solving skills and attention to detail. Committed to staying updated with industry trends and best practices to deliver quality software solutions.
+              </div>
+            </li>
+          </ul>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Years Professional Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">12+</div>
+              <div class="stat-label">Production Projects Delivered</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">2</div>
+              <div class="stat-label">Companies Contributed</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Backend Dedication</div>
             </div>
           </div>
         </div>
-        <div class="main_box center">
-          <div class="icon center">
-            <i class="fas fa-film"></i>
+
+        <div class="about-side reveal">
+          <img
+            src="images/workingPerson.png"
+            alt="Backend Developer Workspace"
+            class="about-illustration"
+          />
+
+          <!-- Personal Details strictly from resume page 3 -->
+          <div class="personal-card">
+            <div class="personal-card-title">
+              <i class="fas fa-id-card"></i>
+              <span>Personal Details</span>
+            </div>
+            <div class="personal-info-list">
+              <div class="personal-info-item">
+                <span class="info-label">Nationality</span>
+                <span class="info-value">Indian</span>
+              </div>
+              <div class="personal-info-item">
+                <span class="info-label">Marital Status</span>
+                <span class="info-value">Single</span>
+              </div>
+              <div class="personal-info-item">
+                <span class="info-label">Date of Birth</span>
+                <span class="info-value">02-05-1996</span>
+              </div>
+              <div class="personal-info-item">
+                <span class="info-label">Languages Known</span>
+                <span class="info-value">English, Tamil</span>
+              </div>
+              <div class="personal-info-item full-width">
+                <span class="info-label">Passport Details</span>
+                <span class="info-value">T0493405 (Valid till March 2029)</span>
+              </div>
+            </div>
           </div>
-          <div class="box">
-            <h1>CRUD Operation</h1>
-            <p>
-              CRUD Operation using HTML, CSS & JavaScript.
-            </p>
-            <div class="links">
-              <a
-                href="https://github.com/Deepakchakkaravarhi/CRUD"
-                target="_blank_"
-                >Github Repo<i class="fas fa-arrow-right"></i
-              ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="experience" id="Experience">
+      <div class="section-header reveal">
+        <span class="section-tag">Career History</span>
+        <h2 class="section-title">Work Experience (3+ Years)</h2>
+        <p class="section-subtitle">
+          Professional backend development journey across enterprise applications, web platforms, and mobile backends.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <!-- Dot Com Infoway -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <div class="exp-role-company">
+                <h3>Backend Developer</h3>
+                <div class="exp-company">
+                  <i class="fas fa-building"></i> Dot Com Infoway Pvt Ltd
+                </div>
+              </div>
+              <span class="exp-period">
+                <i class="fas fa-calendar-alt"></i> Feb-2025 &ndash; Present
+              </span>
+            </div>
+
+            <div class="exp-projects-badge">
+              <strong>Projects Involved:</strong>
+              <span>Doffay, GCGL, WHO, Direct surety, Clubinn, 4Sight</span>
+            </div>
+
+            <ul class="exp-responsibilities">
+              <li>Developed and maintained backend systems using Java Spring Boot.</li>
+              <li>Managed PostgreSQL databases to optimize data storage and retrieval.</li>
+              <li>Employed Git for version control to track changes and collaborate effectively.</li>
+              <li>Leveraged Azure DevOps for continuous integration and deployment (CI/CD).</li>
+              <li>Collaborated with front-end developers to ensure cohesive and functional web applications.</li>
+              <li>Participated in code reviews to maintain high code quality and adherence to best practices.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- MacAppStudio -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <div class="exp-role-company">
+                <h3>Backend Developer</h3>
+                <div class="exp-company">
+                  <i class="fas fa-building"></i> MacAppStudio Pvt Ltd
+                </div>
+              </div>
+              <span class="exp-period">
+                <i class="fas fa-calendar-alt"></i> Jan-2023 &ndash; Aug-2024
+              </span>
+            </div>
+
+            <div class="exp-location">
+              <i class="fas fa-map-marker-alt"></i> Chennai, India
+            </div>
+
+            <div class="exp-projects-badge">
+              <strong>Projects Involved:</strong>
+              <span>Qbay, Aussiebum, HeyCampus, Daimler-MDM/MAM, JioSnap</span>
+            </div>
+
+            <ul class="exp-responsibilities">
+              <li>Built and optimized scalable backend architectures using Laravel PHP and Java Spring Boot microservices.</li>
+              <li>Designed REST APIs for mobile applications and responsive web platforms.</li>
+              <li>Integrated relational database management systems and payment processing solutions.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical & Soft Skills Section -->
+    <section class="skills" id="Skills">
+      <div class="section-header reveal">
+        <span class="section-tag">Competencies</span>
+        <h2 class="section-title">Technical & Soft Skills</h2>
+        <p class="section-subtitle">
+          Comprehensive toolkit encompassing backend languages, architectural patterns, databases, and DevOps practices.
+        </p>
+      </div>
+
+      <div class="skills-wrapper">
+        <!-- Backend & Frameworks -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">
+            <i class="fas fa-server"></i> Backend & Frameworks
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fab fa-java skill-icon"></i>
+              <span class="skill-name">Java Spring Boot</span>
+              <span class="skill-sub">Enterprise Backend</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-laravel skill-icon"></i>
+              <span class="skill-name">Laravel</span>
+              <span class="skill-sub">PHP Framework</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-php skill-icon"></i>
+              <span class="skill-name">PHP / Core PHP</span>
+              <span class="skill-sub">Web Architecture</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-network-wired skill-icon"></i>
+              <span class="skill-name">Microservices</span>
+              <span class="skill-sub">Distributed Systems</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-exchange-alt skill-icon"></i>
+              <span class="skill-name">REST API</span>
+              <span class="skill-sub">Data Integration</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-shield-alt skill-icon"></i>
+              <span class="skill-name">Spring Security</span>
+              <span class="skill-sub">Auth & Access</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-database skill-icon"></i>
+              <span class="skill-name">Spring Data JPA</span>
+              <span class="skill-sub">ORM & Persistence</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-layer-group skill-icon"></i>
+              <span class="skill-name">Hibernate</span>
+              <span class="skill-sub">Data Mapping</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-door-open skill-icon"></i>
+              <span class="skill-name">API Gateway</span>
+              <span class="skill-sub">Routing & Security</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-sitemap skill-icon"></i>
+              <span class="skill-name">MVC Architecture</span>
+              <span class="skill-sub">Design Pattern</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-cubes skill-icon"></i>
+              <span class="skill-name">OOPS</span>
+              <span class="skill-sub">Object-Oriented</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-plug skill-icon"></i>
+              <span class="skill-name">Dependency Injection</span>
+              <span class="skill-sub">IoC Container</span>
             </div>
           </div>
         </div>
 
+        <!-- Databases & Messaging -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">
+            <i class="fas fa-database"></i> Databases & Messaging
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fas fa-database skill-icon"></i>
+              <span class="skill-name">PostgreSQL</span>
+              <span class="skill-sub">Relational DB</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-database skill-icon"></i>
+              <span class="skill-name">MySQL / MySqli</span>
+              <span class="skill-sub">Relational DB</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-table skill-icon"></i>
+              <span class="skill-name">Database Management</span>
+              <span class="skill-sub">Query & Optimization</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-project-diagram skill-icon"></i>
+              <span class="skill-name">Kafka Integration</span>
+              <span class="skill-sub">Event Streaming</span>
+            </div>
+          </div>
+        </div>
 
-    </div>
+        <!-- Cloud, DevOps & Tools -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">
+            <i class="fas fa-cogs"></i> Cloud, DevOps & Developer Tools
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fas fa-cloud skill-icon"></i>
+              <span class="skill-name">Azure DevOps</span>
+              <span class="skill-sub">CI / CD Pipelines</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-google skill-icon"></i>
+              <span class="skill-name">GCP</span>
+              <span class="skill-sub">Google Cloud Platform</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-ubuntu skill-icon"></i>
+              <span class="skill-name">Ubuntu</span>
+              <span class="skill-sub">Linux Environment</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-git-alt skill-icon"></i>
+              <span class="skill-name">Git & Version Control</span>
+              <span class="skill-sub">Branching & Collab</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-box-open skill-icon"></i>
+              <span class="skill-name">Maven</span>
+              <span class="skill-sub">Build Automation</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-credit-card skill-icon"></i>
+              <span class="skill-name">Payment Gateway</span>
+              <span class="skill-sub">Paystack & Twilio</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-book skill-icon"></i>
+              <span class="skill-name">API Documentation</span>
+              <span class="skill-sub">Specification</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-file-upload skill-icon"></i>
+              <span class="skill-name">Filezilla</span>
+              <span class="skill-sub">FTP Deployment</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-terminal skill-icon"></i>
+              <span class="skill-name">WinSCP</span>
+              <span class="skill-sub">SFTP Transfer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web & Frontend Technologies -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">
+            <i class="fas fa-code"></i> Frontend & Web Technologies
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fab fa-html5 skill-icon"></i>
+              <span class="skill-name">HTML</span>
+              <span class="skill-sub">Semantic Web</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-css3-alt skill-icon"></i>
+              <span class="skill-name">CSS</span>
+              <span class="skill-sub">Styling & Layouts</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-sync skill-icon"></i>
+              <span class="skill-name">AJAX</span>
+              <span class="skill-sub">Async Data Calls</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">
+            <i class="fas fa-user-check"></i> Soft Skills
+          </h3>
+          <div class="soft-skills-grid">
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-lightbulb"></i></div>
+              <span class="soft-skill-name">Problem-solving</span>
+            </div>
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-brain"></i></div>
+              <span class="soft-skill-name">Analytical thinking</span>
+            </div>
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-search"></i></div>
+              <span class="soft-skill-name">Attention to detail</span>
+            </div>
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-clock"></i></div>
+              <span class="soft-skill-name">Time management</span>
+            </div>
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-users"></i></div>
+              <span class="soft-skill-name">Team collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-  <!-- footer -->
-  <footer class="center">
-    <div id="particles"></div>
-    <h1>Stay Connected</h1>
-    <div class="social_media_icons">
-      <a href="https://www.instagram.com/____s____m_____s____/" target="_blank_"
-        ><i class="fab fa-instagram"></i
-      ></a>
-      <a href="https://github.com/Salaimuniselvam" target="_blank_"
-        ><i class="fab fa-github"></i
-      ></a>
-      <a
-        href="https://www.youtube.com/channel/UC_Jm0ZO9VzxEk2PCH57PM6w"
-        target="_blank_"
-        ><i class="fab fa-youtube"></i
-      ></a>
-      <a
-        href="https://www.linkedin.com/in/salai-muni-selvam-b7aaa71b4"
-        target="_blank_"
-        ><i class="fab fa-linkedin"></i
-      ></a>
+    <!-- Projects Section (All 12 projects from resume) -->
+    <section class="projects" id="Projects">
+      <div class="section-header reveal">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Projects (12)</h2>
+        <p class="section-subtitle">
+          Real-world applications, enterprise microservices, and REST API backends developed across production environments.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="project-filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All (12)</button>
+        <button class="filter-btn" data-filter="spring">Java & Spring Boot</button>
+        <button class="filter-btn" data-filter="laravel">Laravel PHP</button>
+        <button class="filter-btn" data-filter="api">REST APIs & Integrations</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project 1: Qbay -->
+        <div class="project-card reveal" data-category="laravel">
+          <div class="project-top">
+            <span class="project-index">01. PROJECT</span>
+            <span class="project-duration">Duration: 2 months</span>
+          </div>
+          <h3 class="project-title">Qbay</h3>
+          <p class="project-desc">
+            Full-stack development for frontend and backend. Responsibilities included UI design, data management, application development, maintenance, and daily updates.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel PHP</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+
+        <!-- Project 2: Aussiebum -->
+        <div class="project-card reveal" data-category="laravel">
+          <div class="project-top">
+            <span class="project-index">02. PROJECT</span>
+            <span class="project-duration">Duration: 3 months</span>
+          </div>
+          <h3 class="project-title">Aussiebum</h3>
+          <p class="project-desc">
+            Full-stack development using a modern tech stack for rich UI and high performance. Tasks included UI design, backend management, application development, and client-based maintenance.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel PHP</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+
+        <!-- Project 3: HeyCampus -->
+        <div class="project-card reveal" data-category="laravel api">
+          <div class="project-top">
+            <span class="project-index">03. PROJECT</span>
+            <span class="project-duration">Duration: 5 months</span>
+          </div>
+          <h3 class="project-title">HeyCampus</h3>
+          <p class="project-desc">
+            Full-stack development for frontend, backend, and REST API development for an Android app and web. Responsibilities included matching API with UI design, data management, app development, and daily project updates.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel PHP</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">ReactJS</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">REST API</span>
+          </div>
+        </div>
+
+        <!-- Project 4: MDM & MAM -->
+        <div class="project-card reveal" data-category="spring api">
+          <div class="project-top">
+            <span class="project-index">04. PROJECT</span>
+            <span class="project-duration">Duration: 5 months</span>
+          </div>
+          <h3 class="project-title">MDM & MAM (DTICI)</h3>
+          <p class="project-desc">
+            Mobile Device Management & Mobile Application Management. Managed the company's fleet of trucks' mobile applications, overseeing both backend and frontend development to ensure efficient device and application management.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">Microservices</span>
+            <span class="tech-tag">ReactJS</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+
+        <!-- Project 5: JioSnap -->
+        <div class="project-card reveal" data-category="spring api">
+          <div class="project-top">
+            <span class="project-index">05. PROJECT</span>
+            <span class="project-duration">Duration: 5 months</span>
+          </div>
+          <h3 class="project-title">JioSnap (Reliance Corporate Park)</h3>
+          <p class="project-desc">
+            Developed APIs for mobile app and web for event management, create event, photo sharing, and organization. Features included QR code-based event creation, photo sharing, guest invitations, and data privacy/security.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">Microservices</span>
+            <span class="tech-tag">ReactJS</span>
+            <span class="tech-tag">PostgreSQL</span>
+          </div>
+        </div>
+
+        <!-- Project 6: Doffay Cars Payroll System -->
+        <div class="project-card reveal" data-category="laravel api">
+          <div class="project-top">
+            <span class="project-index">06. PROJECT</span>
+            <span class="project-duration">Duration: 3 months</span>
+          </div>
+          <h3 class="project-title">Doffay Cars Payroll System</h3>
+          <p class="project-desc">
+            Developed REST API for web, with models for admin, HR, manager, and employee. Features operations for admin and HR to create and edit employees, employee leave or permission requests, approval/rejection workflows, and generation of payslips and final payroll.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel Backend</span>
+            <span class="tech-tag">ReactJS</span>
+            <span class="tech-tag">REST API</span>
+            <span class="tech-tag">Payroll Engine</span>
+          </div>
+        </div>
+
+        <!-- Project 7: GCGL -->
+        <div class="project-card reveal" data-category="laravel api">
+          <div class="project-top">
+            <span class="project-index">07. PROJECT</span>
+            <span class="project-duration">Duration: 2 months</span>
+          </div>
+          <h3 class="project-title">GCGL</h3>
+          <p class="project-desc">
+            Worked in payment processing using Paystack. Enabled users to purchase newspapers and renew subscription plans, delivering robust APIs for mobile application and web platforms.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel Backend</span>
+            <span class="tech-tag">ReactJS</span>
+            <span class="tech-tag">Paystack</span>
+            <span class="tech-tag">Payment Gateway</span>
+          </div>
+        </div>
+
+        <!-- Project 8: WHO-quit-tobacco -->
+        <div class="project-card reveal" data-category="laravel api">
+          <div class="project-top">
+            <span class="project-index">08. PROJECT</span>
+            <span class="project-duration">Duration: 2 months</span>
+          </div>
+          <h3 class="project-title">WHO-quit-tobacco</h3>
+          <p class="project-desc">
+            Developed REST API for quit tobacco mobile app. Includes push notifications, motivational videos, craving management videos with full CRUD functionality, and a comprehensive admin panel.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel Backend</span>
+            <span class="tech-tag">React Native</span>
+            <span class="tech-tag">REST API</span>
+            <span class="tech-tag">Admin Panel</span>
+          </div>
+        </div>
+
+        <!-- Project 9: Direct Surety -->
+        <div class="project-card reveal" data-category="laravel api">
+          <div class="project-top">
+            <span class="project-index">09. PROJECT</span>
+            <span class="project-duration">Duration: 1 month</span>
+          </div>
+          <h3 class="project-title">Direct Surety</h3>
+          <p class="project-desc">
+            Developed REST API for mobile app, integrating Twilio service into the application for automated OTP verification and email services based on geolocation.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel Backend</span>
+            <span class="tech-tag">Android</span>
+            <span class="tech-tag">Twilio Service</span>
+            <span class="tech-tag">Geolocation</span>
+          </div>
+        </div>
+
+        <!-- Project 10: Clubinn -->
+        <div class="project-card reveal" data-category="laravel">
+          <div class="project-top">
+            <span class="project-index">10. PROJECT</span>
+            <span class="project-duration">Duration: 2 months</span>
+          </div>
+          <h3 class="project-title">Clubinn</h3>
+          <p class="project-desc">
+            Developed website using MVC model for structured business logic, data abstraction, and responsive presentation.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel Backend</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">MVC Architecture</span>
+          </div>
+        </div>
+
+        <!-- Project 11: 4sight -->
+        <div class="project-card reveal" data-category="laravel api">
+          <div class="project-top">
+            <span class="project-index">11. PROJECT</span>
+            <span class="project-duration">Duration: 3 months</span>
+          </div>
+          <h3 class="project-title">4sight</h3>
+          <p class="project-desc">
+            Developed REST API for mobile application and two dedicated websites: an administrative control panel and a driving school management portal.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel Backend</span>
+            <span class="tech-tag">Android</span>
+            <span class="tech-tag">iOS</span>
+            <span class="tech-tag">Admin Portal</span>
+          </div>
+        </div>
+
+        <!-- Project 12: Qitup -->
+        <div class="project-card reveal" data-category="laravel">
+          <div class="project-top">
+            <span class="project-index">12. PROJECT</span>
+            <span class="project-duration">Duration: 3 months &ndash; Present</span>
+          </div>
+          <h3 class="project-title">Qitup</h3>
+          <p class="project-desc">
+            Developed multi-portal platform encompassing user site, vendor site, and centralized admin panel with backend workflow integration.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Laravel Backend</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">Multi-Portal</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Professional Certifications Section -->
+    <section class="education" id="Education">
+      <div class="section-header reveal">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Education & Certifications</h2>
+        <p class="section-subtitle">
+          Academic foundation in Computer Science and industry certifications in modern Java & Spring Boot frameworks.
+        </p>
+      </div>
+
+      <div class="edu-cert-grid">
+        <!-- Academic Qualifications -->
+        <div class="edu-card reveal">
+          <div class="card-badge-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Academic Qualifications</h3>
+          <div class="degree-item">
+            <h4>B.E. in Computer Science</h4>
+            <p>
+              <i class="fas fa-university"></i>
+              Anna University, Tamil Nadu, INDIA
+            </p>
+          </div>
+        </div>
+
+        <!-- Professional Certifications -->
+        <div class="cert-card reveal">
+          <div class="card-badge-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>Professional Certifications</h3>
+          <ul class="cert-list">
+            <li class="cert-item">
+              <i class="fas fa-award"></i>
+              <div>
+                <strong>Java Course</strong>
+                <span>Mastering the Fundamentals</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <i class="fas fa-award"></i>
+              <div>
+                <strong>Spring Boot Course</strong>
+                <span>Certified Course for Essential Skills</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="Contact">
+      <div id="particles"></div>
+      <div class="footer-content reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="footer-title">Stay Connected</h2>
+        <p class="footer-subtitle">
+          Available for backend engineering opportunities, API architecture consultations, and enterprise software projects.
+        </p>
+
+        <div class="contact-cards-grid">
+          <!-- Email -->
+          <a href="mailto:deepaksivaji@gmail.com" class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">deepaksivaji@gmail.com</span>
+            </div>
+          </a>
+
+          <!-- Phone -->
+          <a href="tel:+916369224746" class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Call / WhatsApp</span>
+              <span class="contact-card-value">+91-6369224746</span>
+            </div>
+          </a>
+
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/deepak-chakkaravarthi-18a9a9228"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card"
+          >
+            <div class="contact-card-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">deepak-chakkaravarthi</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+          <p>&copy; Deepak Chakkaravarthi &bull; Backend Developer</p>
+          <p>Built with <span>Spring Boot & Laravel</span> Mindset</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Quick Navigation Widget -->
+    <div class="floating-nav" id="floatingNav">
+      <button class="floating-toggle-btn" id="floatingToggle" aria-label="Toggle Quick Navigation">
+        <i class="fas fa-compass"></i>
+      </button>
+      <div class="floating-menu" id="floatingMenu">
+        <a href="#main" class="floating-item">
+          <i class="fas fa-home"></i> <span>Home</span>
+        </a>
+        <a href="#About" class="floating-item">
+          <i class="fas fa-user"></i> <span>About</span>
+        </a>
+        <a href="#Experience" class="floating-item">
+          <i class="fas fa-briefcase"></i> <span>Experience</span>
+        </a>
+        <a href="#Skills" class="floating-item">
+          <i class="fas fa-tools"></i> <span>Skills</span>
+        </a>
+        <a href="#Projects" class="floating-item">
+          <i class="fas fa-code"></i> <span>Projects</span>
+        </a>
+        <a href="#Education" class="floating-item">
+          <i class="fas fa-graduation-cap"></i> <span>Education</span>
+        </a>
+        <a href="#Contact" class="floating-item">
+          <i class="fas fa-envelope"></i> <span>Contact</span>
+        </a>
+      </div>
     </div>
-  </footer>
 
-
-    <!-- Toggle -->
-    <div class="toggle center active" id="toggle">
-      <div class="box center">
-          <a href="#main" class="links center"> 
-            <i class="fas fa-home"></i>
-            <p>Home</p>
-          </a>
-      </div>
-      <div class="box center">
-          <a href="#About" class="links center"> 
-            <i class="fas fa-address-card"></i>
-            <p>About</p>
-          </a>
-        <input type="checkbox" name="" id="btn" />
-          <a href="#Skills" class="links center"> 
-            <i class="fas fa-sliders-h"></i>
-            <p>Skills</p>
-          </a>
-      </div>
-      <div class="box">
-          <a href="#Projects" class=" links center"> 
-            <i class="fas fa-tasks"></i>
-            <p>Projects</p>
-          </a>
-      </div>
-    </div>
-
+    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="src/particlesJS/particles.js"></script>
     <script src="src/particlesJS/particleFooterEdit.js"></script>
-    <script>
-      const toggle = document.getElementById("toggle");
-      const btn = document.getElementById("btn");
-      const links = document.querySelectorAll(".links");
 
-      btn.addEventListener("click", (e) => {
-        toggle.classList.toggle("active");
+    <!-- Interactive Animation Scripts -->
+    <script>
+      // 1. Dynamic Typewriter Effect for Hero
+      const roles = [
+        "Backend Developer (3+ Years)",
+        "Java Spring Boot Specialist",
+        "Laravel PHP Framework",
+        "REST APIs & Microservices",
+        "PostgreSQL & MySQL Databases",
+        "Azure DevOps & GCP CI/CD"
+      ];
+      let roleIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+      const typingSpeed = 90;
+      const deletingSpeed = 45;
+      const pauseDelay = 1800;
+      const typingElement = document.getElementById("typing-text");
+
+      function typeWriter() {
+        if (!typingElement) return;
+        const currentRole = roles[roleIndex];
+
+        if (isDeleting) {
+          typingElement.textContent = currentRole.substring(0, charIndex - 1);
+          charIndex--;
+        } else {
+          typingElement.textContent = currentRole.substring(0, charIndex + 1);
+          charIndex++;
+        }
+
+        let nextSpeed = isDeleting ? deletingSpeed : typingSpeed;
+
+        if (!isDeleting && charIndex === currentRole.length) {
+          nextSpeed = pauseDelay;
+          isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+          isDeleting = false;
+          roleIndex = (roleIndex + 1) % roles.length;
+          nextSpeed = 400;
+        }
+
+        setTimeout(typeWriter, nextSpeed);
+      }
+      typeWriter();
+
+      // 2. Scroll Reveal Animations with IntersectionObserver
+      const revealElements = document.querySelectorAll(".reveal");
+      if ("IntersectionObserver" in window) {
+        const revealObserver = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("revealed");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+        );
+
+        revealElements.forEach((el) => revealObserver.observe(el));
+      } else {
+        revealElements.forEach((el) => el.classList.add("revealed"));
+      }
+
+      // 3. Interactive Project Filtering with Smooth Fade Animation
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const projectCards = document.querySelectorAll(".project-card");
+
+      filterButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          filterButtons.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+
+          const filter = btn.getAttribute("data-filter");
+
+          projectCards.forEach((card) => {
+            const categories = card.getAttribute("data-category") || "";
+            if (filter === "all" || categories.includes(filter)) {
+              card.style.display = "flex";
+              setTimeout(() => {
+                card.style.opacity = "1";
+                card.style.transform = "translateY(0)";
+              }, 40);
+            } else {
+              card.style.opacity = "0";
+              card.style.transform = "translateY(15px)";
+              setTimeout(() => {
+                card.style.display = "none";
+              }, 250);
+            }
+          });
+        });
       });
-      links.forEach((e) => {
-        e.addEventListener("click", () => {
-        toggle.classList.toggle("active");
-        })
+
+      // 4. Floating Quick Navigation Toggle
+      const floatingNav = document.getElementById("floatingNav");
+      const floatingToggle = document.getElementById("floatingToggle");
+      const floatingItems = document.querySelectorAll(".floating-item");
+
+      if (floatingToggle && floatingNav) {
+        floatingToggle.addEventListener("click", () => {
+          floatingNav.classList.toggle("open");
+        });
+
+        floatingItems.forEach((item) => {
+          item.addEventListener("click", () => {
+            floatingNav.classList.remove("open");
+          });
+        });
+
+        document.addEventListener("click", (e) => {
+          if (!floatingNav.contains(e.target)) {
+            floatingNav.classList.remove("open");
+          }
+        });
+      }
+
+      // 5. Active Navbar Link Highlighting on Scroll
+      const sections = document.querySelectorAll("section, footer");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      window.addEventListener("scroll", () => {
+        let currentSectionId = "";
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 120;
+          if (window.scrollY >= sectionTop) {
+            currentSectionId = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === `#${currentSectionId}`) {
+            link.classList.add("active");
+          }
+        });
       });
     </script>
   </body>
